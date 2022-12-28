@@ -1,0 +1,6 @@
+table, th, td {
+    border: 1px solid red;
+    margin: 3em;
+    color: aliceblue;
+  }
+  body{background-color: #37718E;}

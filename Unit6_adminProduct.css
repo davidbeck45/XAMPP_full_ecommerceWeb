@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  .column {
+    flex: 50%;
+    padding: 1em;
+    height: 25em; 
+    margin-bottom: 3em;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+ 
+  #display-table td, #display-table th {
+      border: 1px solid grey;
+      padding: 5px 5px 0;
+  }
+  #display-table td {
+      text-align: left;
+  }
+  .selected {
+      color: red;
+  
+  }
+  button {
+    width: 100%;
+    padding: 40px 0;
+    margin: 30px auto;
+    border-radius: 5px; 
+    border: none;
+    
+    font-size: 14px;
+    font-weight: 600;
+    
+    }
+  #delete{
+    background-color: red;
+  }
+    input{
+      margin: 10px auto;
+    }
+  #penForm {
+    width: 50%;
+    padding: 10px 0;
+    margin: 10px auto;
+    border-radius: 5px black; 
+    border: 6px;
+     background-color: antiquewhite;
+
+    font-size: 14px;
+    font-weight: 600;
+    
+  }

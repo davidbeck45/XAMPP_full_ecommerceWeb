@@ -1,0 +1,40 @@
+
+var data = $('').serialize();
+$.post('ajaxsubmit.php', data);
+
+$(document).ready(function(){
+$("#submit").click(function(){
+var Fname = $("#fn").val();
+var email = $("#email").val();
+var Lname = $("#ln").val();
+var quantity = $("#quantity").val();
+// // // Returns successful data submission message when the entered information is stored in database.
+ var s = "f=dave";
+
+if(Fname==''||email==''||Lname==''||quantity=='')
+{
+alert("Please Fill All Fields");
+}
+else
+{
+
+$.ajax({
+type: "POST",
+url: "Unit4_ajaxsubmit.php",
+data: s,
+cache: false,
+success: function(result){
+    
+if(result){
+    alert(result);
+}else{
+    alert("hi");
+}
+    
+
+}
+});
+}
+return false;
+});
+});

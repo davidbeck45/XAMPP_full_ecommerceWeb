@@ -1,0 +1,56 @@
+h1{
+    padding: 10px;
+    
+    background-color: #8EE3EF;
+    text-align: center; 
+    margin-bottom: 0%;
+}
+#intro{
+    margin-top: 0%;
+    padding: 10px;
+    background-color: #AEF3E7;
+    text-align: center;
+}
+
+.topnav {
+    background-color: #254E70;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #AEF3E7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #8EE3EF;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #C33C54;
+    color: white;
+  }
+  #contact{
+    text-align: center;
+    border: #C33C54 solid;
+    position: fixed ;
+    bottom: 0;
+    
+  }
+  #penImg{
+    align-items: right;
+
+}
+#welcome{
+  border: 1px solid;
+  float: right;
+  position: absolute;
+}
